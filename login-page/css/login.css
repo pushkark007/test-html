@@ -1,0 +1,55 @@
+a {
+    color: #1d94ff;
+}
+
+.login__section {
+    font-family: 'Nunito', sans-serif;
+}
+
+.login__section:before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #f8f8f8;
+}
+
+.login__box {
+    margin: 0 auto;
+    background: #fff;
+    margin-top: 100px;
+    padding: 20px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
+}
+
+.login__logo img {
+    width: 200px;
+}
+
+.login__title h3 {}
+
+.login__body {
+    margin-top: 30px;
+}
+
+.login__body .form-control {
+    border-color: #efefef;
+    box-shadow: none;
+    height: 42px;
+}
+
+.login__body .input-group-addon {
+    background: #fff;
+    border-color: #efefef;
+    min-width: 48px;
+}
+
+.btn__login {
+    background: #0388ff;
+    border: 1px solid #0587fc;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 2px;
+}
