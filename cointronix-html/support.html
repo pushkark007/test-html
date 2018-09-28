@@ -1,0 +1,618 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Cointronix - Withdraw</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/helper.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/userpanel.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+
+    <link rel="shortcut icon" type="image/x-icon" href="images/fevicon.ico">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- START PRELOADER SECTION -->
+    <div id="preloader"></div>
+    <!-- END PRELOADER SECTION -->
+
+    <!-- START HEADER SECTION -->
+    <nav class="navbar kv-navbar navbar-fixed-top navbar-white">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo-cointronix-color-dark.svg" class="img-responsive" />
+                </a>
+            </div>
+            <div class="navbar-avtar" style="cursor:pointer;">
+                <img src="images/avtar.svg" />
+            </div>
+
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn">×</a>
+
+
+
+                <div class="sider-bar-widget">
+                    <div class="sidebar-user-profile">
+                        <a class="sidebar-user-profile-avtar" href="">
+                            <img src="images/avtar.svg" />
+                        </a>
+                        <div class="sidebar-user-profile-info">
+                            <div class="sidebar-username">Test User</div>
+                            <div class="sidebar-email">testing@gmail.com</div>
+                        </div>
+                    </div>
+                    <div class="side-account-balance">
+                        <div class="balance-text pull-left">Real account</div>
+                        <div class="balance-value pull-right">$0.00</div>
+                    </div>
+                    <div class="sider-bar-profile-btn">
+                        <a href="" class="deposit">Deposit</a>
+                        <a href="" class="trade">Trade Now</a>
+                    </div>
+                    <ul class="sidebar-menu-link">
+                        <li>
+                            <a href="portfolio.html">
+                                <img src="images/menu/portfolio.svg" alt="portfolio" />
+                                <span>My Portfolio</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="deposit.html">
+                                <img src="images/menu/deposit.svg" alt="Deposit" />
+                                <span>Deposit</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="withdraw.html">
+                                <img src="images/menu/withdrawal.svg" alt="Withdrawal" />
+                                <span>Withdrawal</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="transactions.html">
+                                <img src="images/menu/transactions.svg" alt="Transactions" />
+                                <span>My Transactions</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="TradingHistory.html">
+                                <img src="images/menu/trading-history.svg" alt="History" />
+                                <span>Trading History</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="ReferralProgram.html">
+                                <img src="images/menu/referrals.svg" alt="Referrals" />
+                                <span>Referrals</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="personal.html">
+                                <img src="images/menu/user-outline.svg" alt="My Profile" />
+                                <span>My Profile</span>
+                            </a>
+                        </li>
+                        <li class="menu-devidered"></li>
+                        <li>
+                            <a href="">
+                                <img src="images/menu/logout.svg" alt="logout" />
+                                <span>Log Out</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+            <div class="navbar-collapse collapse navbar-right main-nav" id="navbar">
+                <ul class="nav navbar-nav ">
+                    <li><a class="active" href="javascript:void(0);">Buy & Sell</a></li>
+                    <li><a href="javascript:void(0);">Trade</a></li>
+                    <li><a href="evault.html">eWallet</a></li>
+                    <li><a href="javascript:void(0);">Login</a></li>
+                    <li><a href="javascript:void(0);" class="trade">Trade Now</a></li>
+                    <li>
+                        <div class="search-box">
+                            <input type="text" class="s-box" name="search" placeholder="Type keyword">
+                            <a class="s-btn" href="javascript:void(0);">
+                                <img src="images/search.svg">
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- END HEADER SECTION -->
+    <section class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="ad-title">Support</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <div class="">
+        <section class="page-body">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-12">
+                        <div class="support-details-section">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="support-search row">
+                                        <div class="col-md-3">
+                                            <label>What do you need to know:</label>
+                                        </div>
+                                        <div class="col-md-9">
+                                            <input type="search" class="form-control" alt="search" placeholder="What do you need to know" />
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="support-widget">
+                                        <i><img src="images/support/started.svg" /></i>
+                                        <h4>Getting started</h4>
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="support-widget">
+                                        <i><img src="images/support/account.svg" /></i>
+                                        <h4>Account</h4>
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="support-widget">
+                                        <i><img src="images/support/troubleshooting.svg" /></i>
+                                        <h4>Troubleshooting</h4>
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="support-widget">
+                                        <i><img src="images/support/security.svg" /></i>
+                                        <h4>Security</h4>
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="support-widget">
+                                        <i><img src="images/support/purchase.svg" /></i>
+                                        <h4>Purchase/Refund</h4>
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="support-widget">
+                                        <i><img src="images/support/beginners.svg" alt="beginners" /></i>
+                                        <h4>Guide for beginners</h4>
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+
+
+
+                    <div class="col-md-12">
+                        <div class="faq-section">
+                            <h1 class="faq-title">Frequently Asked Questions</h1>
+                            <div class="panel-group faq-widget" id="accordion">
+                                <div class="">
+                                    <div class="panel-heading" role="tab">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapseOne" class="trigger collapsed">How do I withdraw money?</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse1" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <p>Your withdrawal method will depend on the deposit method.</p>
+                                            <p>If you make a deposit from a card, you will be able to withdraw your initial deposit amount back to the card, because it is processed as a refund. To be precise, you will be able to withdraw the total amount
+                                                of your deposits over the last 90 days to your card. Everything that exceeds this amount (your profit) may be withdrawn to an e-wallet (Skrill, Neteller, WebMoney).</p>
+                                            <p>If you use an e-wallet to deposit, you will only be able to withdraw to the same e-wallet account. In order to withdraw funds, make a withdrawal request on the <a href="">withdrawal page</a>. Withdrawal requests
+                                                are processed by IQ Option within 3 business days. If you withdraw to a bank card, it will take another 1-9 business days for the bank to process this transaction. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <div class="panel-heading" role="tab">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true" aria-controls="collapseOne" class="trigger collapsed">How long does it take to withdraw funds?</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse2" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <p>We aim to process all withdrawal requests within 3 business days. Please keep in mind that the payment service provider may require more time to complete the process depending on the payment method.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <div class="panel-heading" role="tab">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapseOne" class="trigger collapsed">What are the minimum and maximum withdrawal amounts?</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse3" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <p>We have no restrictions as to the minimum withdrawal amount — starting from $2, you can withdraw your funds on the following page: <a href="">cointronix.com/withdrawal</a>. To withdraw an amount less than $2,
+                                                you will need to contact our <a href="">Support Team</a> for assistance. The maximum allowable withdrawal amount is $1,000,000.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <div class="panel-heading" role="tab">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="true" aria-controls="collapseOne" class="trigger collapsed">How much can I withdraw per day? Is there a limit?</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse4" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <p>You can withdraw up to $1,000,000 per day. The number of withdrawal requests is unlimited. The withdrawal request must not exceed the amount available on your account.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title" role="tab">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="true" aria-controls="collapseOne" class="trigger collapsed">Do I need to provide any documents to make a withdrawal?</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse5" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <p>Yes. You need to verify your identity in order to withdraw funds. Account verification is necessary in order to prevent fraudulent financial transactions on the account.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title" role="tab">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="true" aria-controls="collapseOne" class="trigger collapsed">How do I withdraw funds from the trading account to a bank card?</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse6" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <p>1. To withdraw your funds, go to the <a href="">Withdraw Funds</a> section. Choose a withdrawal method, specify the amount and other data required, and click the “Withdraw Funds” button. We do our best to process
+                                                all withdrawal requests within 24 working hours on business days (weekends excluded). Please note that interbank (bank-to-bank) payment processing may take a bit longer. </p>
+                                            <p>2. The number of withdrawal requests is not limited. The withdrawal amount should not exceed the amount of your current trading balance. </p>
+                                            <p>For a withdrawal to a bank card, the transaction is carried out as a refund* transaction. </p>
+                                            <p>*Refunds return money that was paid in a previous transaction. Thus, the amount you can withdraw to a bank card is limited to the amount of money you deposited using this card.</p>
+                                            <p><a href="">Appendix 1</a> shows a flowchart of the withdrawal process. </p>
+                                            <p>The refund involves the following parties: </p>
+                                            <p>1) IQ Option </p>
+                                            <p>2) Acquiring bank – IQ Option’s partner bank </p>
+                                            <p>3) International payment system (IPS) – Visa International or MasterCard</p>
+                                            <p>4) Issuing bank – The bank that opened your bank account and issued your card</p>
+                                            <p>
+                                                In case of malfunction on the side of one of the above-mentioned parties during the withdrawal process, there might be issues with funds being credited to the card. At the moment of the withdrawal on the iqoption.com website, IQ Option provides information
+                                                about the transaction to the acquiring bank. The acquiring bank assigns a unique ARN* code to the operation and passes it to the IPS. The IPS then assigns a unique RRN* code and transfers all the information
+                                                to the issuing bank. The issuing bank processes the operation and credits the funds to your card.
+                                            </p>
+                                            <p>*ARN and RRN identification codes serve as proof of successful withdrawal transactions. The ARN and RRN codes are unique for every transaction and prove that this exact transaction was successful.</p>
+                                            <p>3. Flowchart of funds withdrawal from the trading balance to a bank card. (<a href="">Appendix 1</a>) </p>
+                                            <p>4. Possible malfunctions </p>
+                                            <p>If 9 business days have passed after the withdrawal request but the funds were not credited to the bank card, please contact IQ Option Support through your Profile (or send email to <a href="mailto:support@cointronix.com"
+                                                    target="_blank">support@cointronix.com</a>). You can also contact your personal account manager (available for our VIP clients only). </p>
+                                            <p>In your message to the support team, it is important to mention the dates and amount of the withdrawal not credited to the bank card (please make sure that 9 business days have passed before writing a message
+                                                to the support team). We also ask that you attach a credit card statement issued and signed by the bank. </p>
+                                            <p>4.1. If the transaction is not successful, the support team will provide an explanation of what happened and advise you on what steps need to be taken. </p>
+                                            <p>4.2. If the transaction is successful on the sides of both IQ Option and the IPS, customer support will provide the unique identification numbers (ARN, RRN) for the non-credited transactions. </p>
+                                            <p>You should: </p>
+                                            <p>1) Fill out the form <a target="_blank" href="">Template 1</a>. </p>
+                                            <p>2) Take it to the issuing bank’s processing department (the department responsible for processing payments, which may be called the processing center, payment services support department, bank card operations
+                                                support department, etc.). The issuing bank should be able to use the ARN and RRN codes to track the refund transactions. If the bank failed to track the transactions with the help of the codes, they should
+                                                sign the document provided. This document should be sent to the IQ Option support team (<a href="mailto:support@cointronix.com" target="_blank">support@cointronix.com</a>). Please do not forget to mention
+                                                that the funds were not credited. IQ Option can forward this form to the IPS only if there is an official reply stating that operations were not processed or not found by the issuing bank. </p>
+                                            <p>*Refund is a procedure of returning funds back to the card, which is initiated by the client or the merchant. A refund can be either full (equal to the deposit) or partial (less than the deposit). </p>
+                                            <p>*ARN (Acquirer's Reference Number) is a unique transaction code assigned by the acquiring bank. </p>
+                                            <p>*RRN (Retrieval Reference Number) is a unique transaction code assigned by the payment system. </p>
+                                            <p>*RRN (Retrieval Reference Number) is a unique transaction code assigned by the payment system. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title" role="tab">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse7" aria-expanded="true" aria-controls="collapseOne" class="trigger collapsed">Where can I check my withdrawal?</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse7" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <p>In order to check your withdrawal, use this <a href="" target="_blank">link</a>.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title" role="tab">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse8" aria-expanded="true" aria-controls="collapseOne" class="trigger collapsed">Do I need to provide any documents to make a withdrawal?</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse8" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <p>Yes. You need to verify your identity in order to withdraw funds. Account verification is necessary in order to prevent fraudulent financial transactions on the account.</p>
+                                            <p>To pass the verification process, you need to send us these documents:</p>
+                                            <p>1) A scan or photo of your ID (national passport or driving license). See the example of a <a href="http://prntscr.com/h9er53" target="_blank">valid ID</a> or <a href="http://prntscr.com/en1iny" target="_blank">passport</a>                                                </p>
+                                            <p>2) A scan or photo of both sides of the card (or cards, if you have used more than one for deposits). Cover the CVV number and expose only the first 6 and last 4 digits of your card number. Make sure that the
+                                                card is signed. See the example of the <a href="http://prntscr.com/hfiptw" target="_blank">card image</a> </p>
+                                            <p>If you've used an e-wallet to deposit, you only need to send us a scan of your ID.</p>
+                                            <p>All the documents will be verified within 3 business days after you make a withdrawal request.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title" role="tab">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse9" aria-expanded="true" aria-controls="collapseOne" class="trigger collapsed">Withdrawal statuses. When will my withdrawal be completed?</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse9" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <p>1) After a withdrawal request is made, it receives the "Requested" status.</p>
+
+                                            <p>2) Once we begin processing the request, it receives the "In process" status. Funds are only deducted from your balance after the withdrawal request receives the "In process" status. Make sure you have enough
+                                                funds on your real account by that time.</p>
+
+                                            <p>3) Funds will be transferred to your card or e-wallet after the request receives the "Funds sent" status. This means that the withdrawal has been completed on our side, and your funds are no longer in our system.</p>
+
+                                            <p>You may see the status of your withdrawal request at any time in your Transactions History.</p>
+
+                                            <p>The time when you receive the payment depends on the bank or the e-wallet system. It is approximately 1 day for e-wallets and up to 7-9 days for banks.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title" role="tab">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse10" aria-expanded="true" aria-controls="collapseOne" class="trigger collapsed">How do I create a WebMoney e-wallet?</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse10" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <p>1) Go to this link to create a WebMoney account</p>
+                                            <p>2) Enter and confirm your phone number</p>
+                                            <p>3) Enter your personal data</p>
+                                            <p>4) Verify your phone number</p>
+                                            <p>5) Create your password</p>
+                                            <p>6) Create a wallet with the currency of your choice</p>
+                                            <p>7) Now you can make a deposit with a bank card or e-wallet</p>
+                                            <p>These are the approximate fees for transferring money from a WebMoney account:</p>
+                                            <p>~ 2-2.5% for bank card withdrawal</p>
+                                            <p>~ 1.5-3.5% for bank wire transfer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title" role="tab">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse11" aria-expanded="true" aria-controls="collapseOne" class="trigger collapsed">How do I create a Fasapay e-wallet?</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse11" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <p>1) Go to the link and click Sign Up</p>
+                                            <p>2) Enter your first name, last name and email, and choose the type of account <a href="https://prnt.sc/fy0laj" target="_blank">(pic)</a> </p>
+                                            <p>3) Confirm your email with the link sent to your email address </p>
+                                            <p>4) Create a password and enter your personal data <a href="https://prnt.sc/fy0mb3" target="_blank">(pic)</a> </p>
+                                            <p>5) Now you are ready to make a deposit: Top up the Fasapay account at the <a href="https://www.fasapay.com/service/topup" target="_blank">link</a> </p>
+                                            <p>These are the approximate fees for transferring money from a Fasapay account: </p>
+                                            <p>0.5% of the transaction value with a maximum fee of $5.00 or Rp. 50,000.00 </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title" role="tab">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse12" aria-expanded="true" aria-controls="collapseOne" class="trigger collapsed">What is the ARN and what is it for? What is ARN?</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse12" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <p>The acquirer reference number, or ARN, is a unique number that tags a credit card transaction when it goes from the merchant's bank (the acquiring bank) through the card scheme to the cardholder's bank (the
+                                                issuer). This number can be used by issuing banks to trace a transaction with an acquirer.</p>
+                                            <p>It is very important to give the ARN codes to your bank's Processing Center (the employees of a general client office sometimes are not aware of these codes and their use). If you are not able to visit the Processing
+                                                Center, contact the bank officers responsible for processing card operations. They will help you to track the money. Please also bring to their attention that the transaction is a refund, not a new transaction.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <div class="panel-heading" role="tab">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse13" aria-expanded="true" aria-controls="collapseOne" class="trigger collapsed">How long does it take to process the withdrawal?</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse13" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <p>For every withdrawal request, our specialists need some time to check everything and approve the request. This is usually no more than 3 days.</p>
+                                            <p>We need to make sure that the person who makes a request is really you, so that nobody else can access your money.</p>
+                                            <p>This is necessary for the security of your funds, along with the verification procedures.</p>
+                                            <p>After that, there is a special procedure when you withdraw to a bank card.</p>
+                                            <p>You can only withdraw to your bank card the total amount deposited from your bank card within the last 90 days. It works like a refund in a store.</p>
+                                            <p>We send you the money within the same 3 days, but your bank needs some more time to complete the transaction (to be more precise, the cancellation of your payments to us).</p>
+                                            <p>This can take an additional 7-9 business days. You can see this information on the page with your <a href="http://prntscr.com/fripvy" target="_blank">withdrawal history</a>. </p>
+                                            <p>Alternatively, you can withdraw all your profits to an e-wallet (like Skrill, Neteller, or WebMoney) without any limits, and get your money within 24 hours after we complete your withdrawal request. This is
+                                                the fastest way to get your money.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="withdrawal-details-box">
+                                    <i><img src="images/live-support.svg" /></i>
+                                    <h4>Live Chat Support</h4>
+                                    <p>Chat live with our customer support executive</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="withdrawal-details-box">
+                                    <i><img src="images/email.svg" /></i>
+                                    <h4>Send an Email</h4>
+                                    <p>Send us your query at <a href="mailto:support@cointronix.co">support@cointronix.co</a></p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="withdrawal-details-box">
+                                    <i><img src="images/telegram.svg" /></i>
+                                    <h4>Telegram Group</h4>
+                                    <p>Get support on our Telegram group<br />&nbsp;</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+
+
+
+
+
+    <!-- START FOOTER SECTION -->
+    <section class="ast_footer_wrapper">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-left">
+                    <div class="ast_footer_info">
+                        <img src="images/logo-cointronix-color-white.svg" alt="Logo" class="footer-logo">
+                        <p>
+                            Cointronix intends to revolutionize the financial technology space by combining the best of crypto trading payment solutions with cutting-age technology tools. Experience the easy of trading at a platform which is highly innovative in concept and extremely
+                            futuristic in design.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
+                    <div class="widget text-widget">
+                        <div class="ast_servicelink">
+                            <h4>Quick Links</h4>
+                            <ul>
+                                <li><a href="support.html">Support</a></li>
+                                <li><a href="javascript:void(0);">Trading Rules</a></li>
+                                <li><a href="javascript:void(0);">Fees</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
+                    <div class="widget text-widget">
+                        <div class="ast_sociallink">
+                            <h4>Explore More</h4>
+                            <ul>
+                                <li><a href="ourTeam.html">Team Cointronix</a></li>
+                                <li><a href="javascript:void(0);">Knowledge Base</a></li>
+                                <li><a href="javascript:void(0);">Terms of Use</a></li>
+                                <li><a href="privacy-policy.html">Privacy Policy</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="widget text-widget">
+                        <h4 class="widget-title"><strong>	Newsletter Sign Up	Email ID 	</strong></h4>
+                        <div class="ast_newsletter">
+                            <p>
+                                Subscribe to stay updated with the latest news & updates of the crypto currency world.
+                            </p>
+                            <div class="ast_newsletter_box">
+                                <input type="text" placeholder="Enter Email Address">
+                                <button type="submit">Subscribe</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="footer-social-link">
+                        <ul>
+                            <li><a class="facebook" href="javascript:void(0);"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a class="twitter" href="javascript:void(0);"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a class="linkedin" href="javascript:void(0);"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                            <li><a class="google-plus" href="javascript:void(0);"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                            <li><a class="instagram" href="javascript:void(0);"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a class="whatsapp" href="javascript:void(0);"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+        <hr>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="ast_footer_wrapper-bottom">
+                        <p> Copyright ©2018 <a href="javascript:void(0);"> Cointronix</a>, All Rights Reserved, </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- END FOOTER SECTION -->
+    <!-- START TOP SECTION -->
+    <div id="stop" class="scrollTop">
+        <i class="fa fa-angle-up"></i>
+    </div>
+    <!-- END TOP SECTION -->
+    <!-- START SCRIPT SECTION -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+    <!-- END SCRIPT SECTION -->
+
+</body>
+
+</html>

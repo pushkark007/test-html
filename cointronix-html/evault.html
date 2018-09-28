@@ -1,0 +1,377 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Cointronix - EVault</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/helper.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/userpanel.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+
+    <link rel="shortcut icon" type="image/x-icon" href="images/fevicon.ico">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- START PRELOADER SECTION -->
+    <div id="preloader"></div>
+    <!-- END PRELOADER SECTION -->
+    <!-- START HEADER SECTION -->
+    <nav class="navbar kv-navbar navbar-fixed-top navbar-white">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo-cointronix-color-dark.svg" class="img-responsive" />
+                </a>
+            </div>
+            <div class="navbar-avtar" style="cursor:pointer;">
+                <img src="images/avtar.svg" />
+            </div>
+
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn">×</a>
+                <div class="sider-bar-widget">
+                    <div class="sidebar-user-profile">
+                        <a class="sidebar-user-profile-avtar" href="">
+                            <img src="images/avtar.svg" />
+                        </a>
+                        <div class="sidebar-user-profile-info">
+                            <div class="sidebar-username">Test User</div>
+                            <div class="sidebar-email">testing@gmail.com</div>
+                        </div>
+                    </div>
+                    <div class="side-account-balance">
+                        <div class="balance-text pull-left">Real account</div>
+                        <div class="balance-value pull-right">$0.00</div>
+                    </div>
+                    <div class="sider-bar-profile-btn">
+                        <a href="" class="deposit">Deposit</a>
+                        <a href="" class="trade">Trade Now</a>
+                    </div>
+                    <ul class="sidebar-menu-link">
+                        <li>
+                            <a href="portfolio.html">
+                                <img src="images/menu/portfolio.svg" alt="portfolio" />
+                                <span>My Portfolio</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="deposit.html">
+                                <img src="images/menu/deposit.svg" alt="Deposit" />
+                                <span>Deposit</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="withdraw.html">
+                                <img src="images/menu/withdrawal.svg" alt="Withdrawal" />
+                                <span>Withdrawal</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="transactions.html">
+                                <img src="images/menu/transactions.svg" alt="Transactions" />
+                                <span>My Transactions</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="TradingHistory.html">
+                                <img src="images/menu/trading-history.svg" alt="History" />
+                                <span>Trading History</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="ReferralProgram.html">
+                                <img src="images/menu/referrals.svg" alt="Referrals" />
+                                <span>Referrals</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="personal.html">
+                                <img src="images/menu/user-outline.svg" alt="My Profile" />
+                                <span>My Profile</span>
+                            </a>
+                        </li>
+                        <li class="menu-devidered"></li>
+                        <li>
+                            <a href="">
+                                <img src="images/menu/logout.svg" alt="logout" />
+                                <span>Log Out</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="navbar-collapse collapse navbar-right main-nav" id="navbar">
+                <ul class="nav navbar-nav ">
+                    <li><a class="active" href="javascript:void(0);">Buy & Sell</a></li>
+                    <li><a href="javascript:void(0);">Trade</a></li>
+                    <li><a href="evault.html">eWallet</a></li>
+                    <li><a href="javascript:void(0);">Login</a></li>
+                    <li><a href="javascript:void(0);" class="trade">Trade Now</a></li>
+                    <li>
+                        <div class="search-box">
+                            <input class="s-box" type="text" name="search" placeholder="Type keyword">
+                            <a class="s-btn" href="javascript:void(0);">
+                                <img src="images/search.svg">
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- END HEADER SECTION -->
+    <section class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="ad-title">
+                        eVault Cointronix
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="evault-section">
+        <div class="container">
+
+            <div class="row ">
+                <div class="col-md-6">
+                    <div class="row ">
+                        <div class="col-md-12 text-left">
+                            <h3 class="head-title-md">
+                                Cryptocurrency Security
+                                <span></span>
+                            </h3>
+                        </div>
+                    </div>
+                    <p class="p-text-md">
+                        Your Cryptocurrency is only safe if your private key is generated securely, remains a secret, and most importantly- is controlled only by you. This is exactly what the Cointronix eVault does.
+                    </p>
+                    <ul>
+                        <li>It generates your private keys in a secure environment</li>
+                        <li>It creates backups of your private keys to protect against loss due to any failure </li>
+                        <li>It encrypts wallets to prevent theft in any unlikely event that your wallet access is compromised. </li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/evault.png" class="img img-responsive">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="evault-2-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-4">
+                    <div class="evault-widget">
+                        <i><img src="images/icons/transaction.svg"></i>
+                        <h4 class="xs-pt-20">Direct<br> Cryptocurrency Transactions </h4>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="evault-widget">
+                        <i><img src="images/icons/exchange.svg"></i>
+                        <h4 class="xs-pt-20">Instant Exchange between Different Currency </h4>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="evault-widget">
+                        <i><img src="images/icons/key.svg"></i>
+                        <h4 class="xs-pt-20">Accessible from your Laptop, Desktop or Mobile on the go. </h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-4">
+                    <div class="evault-widget">
+                        <i><img src="images/icons/exchange1.svg"></i>
+                        <h4 class="xs-pt-20">Build-in Exchange <br> for all Wallet<br> Cryptocurrency </h4>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="evault-widget">
+                        <i><img src="images/icons/fee.svg"></i>
+                        <h4 class="xs-pt-20">Instant and Fee-Free Transactions within Cointronix Wallet </h4>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="evault-widget">
+                        <i><img src="images/icons/support.svg"></i>
+                        <h4 class="xs-pt-20">Amazing 24/7 Customer Support Mechanism- Best in Class </h4>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <div class="multi-cr-section">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-12 text-left">
+                    <h3 class="head-title-md">
+                        Multi-Currency
+                        <span></span>
+                    </h3>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-md-8 text-left">
+                    <p class="p-text-md">
+                        Cointronix eVault is a multisig multicurrency wallet to store, send and receive digital currencies. It will help keep track of all the digital assets of users storing them safely at the same time. It will securely hold private and public keys- both.
+                    </p>
+                    <p class="p-text-md">
+                        It will also Buy/Sell functionality to enable users to instantly buy or sell currencies from their Vault. Strong encryption and custody-free solution guarantees a high level of security. Users can export private keys in different formats. Private key
+                        storage in Cointronix eVault is personal, which means the funds are controlled by its users.
+                    </p>
+                    <div class="row clearfix xs-mt-50 text-center">
+                        <div class="col-md-4 xs-mb-20">
+                            <h4><strong>Multi-Currency Account</strong></h4>
+                            <p class="p-text-md">Securely store, easily receive and quickly send Bitcoin, Litecoin, Dash, Zcash and other digital currencies. It also supports all tokens on ETH ERC20, NEO NEP-5, EOS and more to come on our roadmap.</p>
+                        </div>
+                        <div class="col-md-4 xs-mb-20">
+                            <h4><strong>Instant Currency Exchange</strong></h4>
+                            <p class="p-text-md">
+                                Instant and automatic exchange between Bitcoin and other supported Cryptocurrency at very attractive rates and without fees.</p>
+                        </div>
+                        <div class="col-md-4 xs-mb-20">
+                            <h4><strong>Anonymous & Secure</strong></h4>
+                            <p class="p-text-md">Bank-level security and industrial-grade account protection. Encrypted SSL connection over HTTPS, 2-factor authentication and trusted IPs.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4  text-center">
+                    <img src="images/multi.png" class="img img-responsive">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- START FOOTER SECTION -->
+    <section class="ast_footer_wrapper">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-left">
+                    <div class="ast_footer_info">
+                        <img src="images/logo-cointronix-color-white.svg" alt="Logo" class="footer-logo">
+                        <p>
+                            Cointronix intends to revolutionize the financial technology space by combining the best of crypto trading payment solutions with cutting-age technology tools. Experience the easy of trading at a platform which is highly innovative in concept and extremely
+                            futuristic in design.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
+                    <div class="widget text-widget">
+                        <div class="ast_servicelink">
+                            <h4>Quick Links</h4>
+                            <ul>
+                                <li><a href="support.html">Support</a></li>
+                                <li><a href="javascript:void(0);">Trading Rules</a></li>
+                                <li><a href="javascript:void(0);">Fees</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
+                    <div class="widget text-widget">
+                        <div class="ast_sociallink">
+                            <h4>Explore More</h4>
+                            <ul>
+                                <li><a href="ourTeam.html">Team Cointronix</a></li>
+                                <li><a href="javascript:void(0);">Knowledge Base</a></li>
+                                <li><a href="javascript:void(0);">Terms of Use</a></li>
+                                <li><a href="privacy-policy.html">Privacy Policy</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="widget text-widget">
+                        <h4 class="widget-title"><strong>	Newsletter Sign Up	Email ID 	</strong></h4>
+                        <div class="ast_newsletter">
+                            <p>
+                                Subscribe to stay updated with the latest news & updates of the crypto currency world.
+                            </p>
+                            <div class="ast_newsletter_box">
+                                <input type="text" placeholder="Enter Email Address">
+                                <button type="submit">Subscribe</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="footer-social-link">
+                        <ul>
+                            <li><a class="facebook" href="javascript:void(0);"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a class="twitter" href="javascript:void(0);"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a class="linkedin" href="javascript:void(0);"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                            <li><a class="google-plus" href="javascript:void(0);"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                            <li><a class="instagram" href="javascript:void(0);"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a class="whatsapp" href="javascript:void(0);"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+        <hr>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="ast_footer_wrapper-bottom">
+                        <p> Copyright ©2018 <a href="javascript:void(0);"> Cointronix</a>, All Rights Reserved, </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- END FOOTER SECTION -->
+    <!-- START TOP SECTION -->
+    <div id="stop" class="scrollTop">
+        <i class="fa fa-angle-up"></i>
+    </div>
+    <!-- END TOP SECTION -->
+    <!-- START SCRIPT SECTION -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+    <!-- END SCRIPT SECTION -->
+
+
+</body>
+
+</html>
