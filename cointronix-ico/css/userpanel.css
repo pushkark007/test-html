@@ -1,0 +1,557 @@
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+button {
+    transition: all ease-in-out 0.3s;
+    -webkit-transition: all ease-in-out 0.3s;
+    -moz-transition: all ease-in-out 0.3s;
+    -ms-transition: all ease-in-out 0.3s;
+    -o-transition: all ease-in-out 0.3s;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.crypto-widget button[disabled] {
+    color: #e1e1e1 !important;
+}
+
+.crypto-widget button[disabled] svg {
+    fill: #e1e1e1 !important;
+}
+
+.crypto-widget button svg {
+    fill: #35a947;
+}
+
+.crypto-widget button:hover svg {
+    fill: #27893b;
+}
+
+.ad-title {
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 10px 0px;
+}
+
+.page-body {
+    padding: 60px 0px;
+}
+
+.crypto-widget-title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #000;
+    margin: 0px 0px 30px 0px;
+}
+
+.crypto-widget {
+    position: relative;
+    background: #fff;
+    padding: 20px 20px 20px 70px;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 0 16px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 0 16px 1px rgba(0, 0, 0, .05);
+    margin-bottom: 20px;
+}
+
+.crypto-widget-dis {
+    color: #9b9b9b;
+    font-family: 'Montserrat', sans-serif;
+    float: left;
+    width: 200px;
+}
+
+.crypto-widget-value {
+    float: left;
+    color: #9b9b9b;
+}
+
+.crypto-widget-value .crypto-value {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.crypto-widget-value span {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.crypto-widget-dis h5 {
+    margin: 3px 0px 0px 0px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.crypto-widget-dis p {
+    margin-bottom: 0px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.crypto-widget .coin-icon {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.crypto-widget button {
+    background: #fff;
+    border: 0px;
+    padding: 10px 12px;
+    color: #35a947;
+    margin-left: 20px;
+    outline: none;
+    font-weight: 500;
+}
+
+.crypto-widget button:hover {
+    color: #27893b;
+}
+
+.crypto-widget button span {
+    margin-left: 5px;
+}
+
+.crypto-widget button i {
+    margin-right: 5px;
+}
+
+.crypto-widget-button {
+    text-align: right;
+}
+
+.crypto-footer .show-other-balance-bt {
+    width: 100%;
+    padding: 15px 20px;
+    background: #f9f9fe;
+    outline: none;
+    color: #25258e;
+    border: none;
+    font-weight: 500;
+}
+
+.crypto-footer .show-other-balance-bt:hover {
+    background-color: #f4f4f9;
+}
+
+.withdraw-banner-section {
+    margin-top: 30px;
+}
+
+.walletinfo {
+    position: relative;
+    background: #fff;
+    padding: 20px 20px 20px 20px;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 0 16px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 0 16px 1px rgba(0, 0, 0, .05);
+    margin-top: 53px;
+}
+
+.walletinfo-widget {
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.walletinfo-widget .pull-left {
+    font-size: 13px;
+}
+
+.walletinfo-footer {
+    padding: 20px 20px 0px 20px;
+    border-top: 1px solid #ededed;
+    text-align: center;
+}
+
+.walletinfo-footer a {
+    color: #285bed;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+/*****transactions****/
+
+.transactions-widget {}
+
+.transactions-widget span {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #8d9097;
+}
+
+.transactions-widget select,
+.transactions-widget input[type=text] {
+    width: 100%;
+    padding: 10px 15px;
+    color: #000;
+    border: 1px solid #e4e6ea;
+    outline: none;
+}
+
+.transactions-result {
+    margin-top: 40px;
+}
+
+.widget-select-filed {
+    position: relative;
+}
+
+.widget-select-filed .date {
+    padding: 10px 15px 10px 50px !important;
+}
+
+.widget-select-filed .calendar {
+    position: absolute;
+    color: #d6d6e1;
+    top: 0px;
+    left: 0px;
+    width: 42px;
+    height: 42px;
+    border: 1px solid #e4e6ea;
+    text-align: center;
+    line-height: 38px;
+    font-size: 18px;
+}
+
+.transactions-data {
+    padding: 100px 0px;
+    border-top: 1px solid #e4e6ea;
+    border-bottom: 1px solid #e4e6ea;
+}
+
+.no-data {
+    text-align: center;
+    color: #4a4a4a;
+    font-weight: 600;
+}
+
+.withdraw-filed {
+    background: #f1f2fa;
+    margin: 30px 0px;
+    height: 200px;
+}
+
+.withdraw-filed input[type=text],
+.withdraw-filed input[type=email] {
+    padding: 10px 20px;
+    border-radius: 30px;
+    background: #fff;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.withdraw-filed .submit {
+    color: #fff;
+    outline: none;
+    border: none;
+    background: #383fcf;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-weight: 600;
+}
+
+.withdraw-filed .withdraw-text {
+    padding-top: 0px;
+}
+
+.withdraw-section table {
+    color: #000;
+}
+
+.withdraw-section table tr th {
+    background: #f4f4f4;
+    font-weight: 600;
+    color: #5c5c5c;
+    border: 1px solid #ddd;
+}
+
+.withdraw-section button.withdraw-bt {
+    background: #f4f4f4;
+    padding: 8px 24px;
+    outline: none;
+    border: none;
+    color: #252525;
+    border-radius: 30px;
+    font-weight: 500;
+}
+
+.withdraw-section button.selected {
+    background: #383fcf;
+    color: #fff;
+}
+
+.withdraw-section .table>tbody>tr>td,
+.withdraw-section .table>tbody>tr>th,
+.withdraw-section .table>tfoot>tr>td,
+.withdraw-section .table>tfoot>tr>th,
+.withdraw-section .table>thead>tr>td,
+.withdraw-section .table>thead>tr>th {
+    vertical-align: middle;
+}
+
+.withdraw-text label.title {
+    display: block;
+    color: #2c2c2c;
+}
+
+.deposit-address {
+    padding-top: 115px;
+    padding-left: 40px;
+}
+
+.qr-code {
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 50px;
+    border-left: 1px solid #dcdcdc;
+}
+
+.qr-code img {
+    display: inline-block;
+}
+
+.qr-code label {
+    margin-right: 30px;
+    color: #2c2c2c;
+}
+
+.withdraw-section .table-responsive {
+    overflow-x: inherit;
+}
+
+
+/*****responsive****/
+
+@media (max-width: 767px) {
+    .crypto-widget-value {
+        float: right;
+    }
+    .crypto-widget-dis {
+        width: auto;
+    }
+    .crypto-widget button {
+        float: left;
+        margin-left: 0px;
+        padding: 8px 6px;
+        font-size: 12px;
+    }
+    .crypto-widget-button {
+        width: 100%;
+        display: table;
+        border-top: 1px solid #ededed;
+        margin-top: 8px;
+    }
+    .crypto-widget-value span,
+    .crypto-widget-dis p {
+        font-size: 11px;
+    }
+    .crypto-widget-value .crypto-value,
+    .crypto-widget-dis h5 {
+        font-size: 14px;
+    }
+    .qr-code {
+        border-left: 0px;
+        padding: 20px;
+    }
+    .deposit-address {
+        padding-top: 30px;
+    }
+    .table-responsive>.table-bordered {
+        border: 1px solid #ddd;
+    }
+    .payment-widget li {
+        width: 100%;
+        border-right: 0px !important;
+        padding: 15px 0px !important;
+    }
+}
+
+
+/******personal info*******/
+
+.personal-info {
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.personal-info .profile-nav {
+    width: 100%;
+    max-width: 282px;
+    float: left;
+}
+
+.personal-info .nav-pills>li {
+    width: 100%;
+}
+
+.personal-info .nav-pills>li>a {
+    border-radius: 0px;
+}
+
+.personal-info .nav>li>a {
+    padding: 15px 15px 15px 0px;
+    color: #000;
+    font-weight: 500;
+}
+
+.personal-info .nav>li {
+    border-top: 1px dashed #e4e6ea;
+}
+
+.personal-info .nav-pills>li.active>a,
+.personal-info .nav-pills>li.active>a:focus,
+.personal-info .nav-pills>li.active>a:hover {
+    color: #161ecb;
+    background-color: transparent;
+}
+
+.personal-info .nav>li>a:focus,
+.personal-info .nav>li>a:hover {
+    background-color: transparent;
+    color: #161ecb;
+}
+
+.profile-block-title {
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.personal-info .tab-content {
+    float: left;
+}
+
+.persoan-info-widget {
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 1px solid #f4f4f9;
+}
+
+.persoan-info-widget h4 {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.persoan-info-widget p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.persoan-info-widget a {
+    color: #383fcf;
+    font-weight: 600;
+}
+
+.profile-block-title {
+    font-size: 26px;
+}
+
+.persoan-info-warnning {
+    width: 100%;
+    display: table;
+    margin-top: 25px;
+}
+
+.persoan-info-warnning span {
+    float: left;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #da1721;
+    font-size: 28px;
+    border-radius: 4px;
+    background-color: rgba(255, 32, 44, .1);
+    margin-right: 10px;
+}
+
+.persoan-info-warnning p {
+    float: left;
+    color: #da1721;
+    font-size: 15px;
+    line-height: 18px;
+    border-radius: 4px;
+    background-color: rgba(255, 32, 44, .1);
+    padding: 17px 20px 15px;
+    margin-bottom: 0px;
+}
+
+.persoan-info-warnning p a {
+    color: #da1721;
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+.persoan-info-widget .session {
+    padding: 16px;
+    margin-top: 24px;
+    border-radius: 2px;
+    background-color: #fff;
+    box-shadow: 0 0 16px 1px rgba(0, 0, 0, .05);
+    position: relative;
+}
+
+.persoan-info-widget .session-info {
+    padding-left: 50px;
+}
+
+.persoan-info-widget .session-terminal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    font-weight: 500;
+    border: none;
+    background: transparent;
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    color: #999;
+    text-align: center;
+    outline: none;
+    margin-top: 10px;
+}
+
+.persoan-info-widget .session-text {}
+
+.persoan-info-widget .session-info p {
+    margin-bottom: 0px;
+}
+
+.session .session-icon {
+    position: absolute;
+    top: 18px;
+    left: 15px;
+}
+
+
+/******personal info*******/
+
+
+/******payment*******/
+
+.footerpayment {
+    background: #eceff1;
+    padding: 30px 0px;
+    text-align: center;
+}
+
+.payment-widget {
+    padding: 0px;
+    margin: 0px;
+}
+
+.payment-widget li {
+    list-style: none;
+    display: inline-block;
+    border-right: 1px solid #d5d9db;
+    padding: 0px 20px;
+}
+
+
+/******payment*******/
