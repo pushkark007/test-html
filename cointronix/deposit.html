@@ -1,0 +1,376 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Cointronix - Deposit</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/helper.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/userpanel.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+
+    <link rel="shortcut icon" type="image/x-icon" href="images/fevicon.ico">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" rel="stylesheet">
+</head>
+
+<body>
+    <!-- START PRELOADER SECTION -->
+    <div id="preloader"></div>
+    <!-- END PRELOADER SECTION -->
+
+    <!-- START HEADER SECTION -->
+    <nav class="navbar kv-navbar navbar-fixed-top navbar-white">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo-cointronix-color-dark.svg" class="img-responsive" />
+                </a>
+            </div>
+            <div class="navbar-avtar" style="cursor:pointer;">
+                <img src="images/avtar.svg" />
+            </div>
+
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn">×</a>
+
+
+
+                <div class="sider-bar-widget">
+                    <div class="sidebar-user-profile">
+                        <a class="sidebar-user-profile-avtar" href="">
+                            <img src="images/avtar.svg" />
+                        </a>
+                        <div class="sidebar-user-profile-info">
+                            <div class="sidebar-username">Ashvin Desai</div>
+                            <div class="sidebar-email">ashvin.desai@elaunchinfotech.com</div>
+                        </div>
+                    </div>
+                    <div class="side-account-balance">
+                        <div class="balance-text pull-left">Real account</div>
+                        <div class="balance-value pull-right">$0.00</div>
+                    </div>
+                    <div class="sider-bar-profile-btn">
+                        <a href="" class="btn_green Profile_btn Profile__deposit">Deposit</a>
+                        <a href="" class="btn_blue Profile_btn Profile__Trade">Trade Now</a>
+                    </div>
+                    <ul class="sidebar-menu-link">
+                        <li>
+                            <a href="portfolio.html">
+                                <img src="images/menu/portfolio.svg" alt="portfolio" />
+                                <span>My Portfolio</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="deposit.html">
+                                <img src="images/menu/deposit.svg" alt="Deposit" />
+                                <span>Deposit</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="withdraw.html">
+                                <img src="images/menu/withdrawal.svg" alt="Withdrawal" />
+                                <span>Withdrawal</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="transactions.html">
+                                <img src="images/menu/transactions.svg" alt="Transactions" />
+                                <span>My Transactions</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="TradingHistory.html">
+                                <img src="images/menu/trading-history.svg" alt="History" />
+                                <span>Trading History</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="ReferralProgram.html">
+                                <img src="images/menu/referrals.svg" alt="Referrals" />
+                                <span>Referrals</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="personal.html">
+                                <img src="images/menu/user-outline.svg" alt="My Profile" />
+                                <span>My Profile</span>
+                            </a>
+                        </li>
+                        <li class="menu-devidered"></li>
+                        <li>
+                            <a href="">
+                                <img src="images/menu/logout.svg" alt="logout" />
+                                <span>Log Out</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+            <div class="navbar-collapse collapse navbar-right main-nav" id="navbar">
+                <ul class="nav navbar-nav ">
+                    <li><a class="active" href="javascript:void(0);">Buy & Sell</a></li>
+                    <li><a href="javascript:void(0);">Trade</a></li>
+                    <li><a href="evault.html">eWallet</a></li>
+                    <li><a href="javascript:void(0);">Login</a></li>
+                    <li><a href="javascript:void(0);" class="trade">Trade Now</a></li>
+                    <li>
+                        <div class="search-box">
+                            <input class="s-box" type="text" name="search" placeholder="Type keyword">
+                            <a class="s-btn" href="javascript:void(0);">
+                                <img src="images/search.svg">
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- END HEADER SECTION -->
+    <section class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="ad-title">Deposit</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="">
+        <section class="page-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="transactions-tab row">
+                            <div class="deposit-menu col-md-1 col-sm-1 col-xs-12">
+                                <ul class="nav nav-pills transactions-menu">
+                                    <li class="active"><a data-toggle="pill" href="#home"><svg class="btc-coin" width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g class="path-with-fill" id="coin" transform="translate(-49.000000, -57.000000)" fill="#929292"><path d="M59,57 L59,57 C64.5228475,57 69,61.4771525 69,67 L69,67 C69,72.5228475 64.5228475,77 59,77 C53.4771525,77 49,72.5228475 49,67 L49,67 L49,67 C49,61.4771525 53.4771525,57 59,57 L59,57 Z M63.8561337,65.3865423 C64.1100589,63.8923732 63.038705,63.0575144 61.5589881,62.4805446 L62.096756,60.461578 L60.9217145,60.122397 L60.3981536,62.0881601 C60.0892489,61.999003 59.7718001,61.9142042 59.4563546,61.8301629 L59.9836265,59.8514556 L58.8092589,59.5122922 L58.2711726,61.5305455 C58.0153301,61.4625162 57.7641868,61.3953149 57.52054,61.3251376 L57.5220539,61.3188328 L55.901582,60.8502627 L55.5522614,62.1628789 C55.5522614,62.1628789 56.4245695,62.3961458 56.4056947,62.408693 C56.881596,62.5462818 56.9595188,62.8799968 56.9381482,63.1423801 L56.3255794,65.4424215 C56.3583721,65.4520919 56.4008356,65.4658928 56.4474953,65.486853 C56.408337,65.4756059 56.3665105,65.4632316 56.3233269,65.4511742 L55.4647353,68.67318 C55.4021175,68.8238075 55.2475357,69.0481603 54.9148535,68.952741 C54.9261772,68.9710136 54.0607739,68.7058526 54.0607739,68.7058526 L53.4363611,70.1060798 L54.965485,70.5475849 C55.2499474,70.63011 55.528589,70.7160074 55.8029699,70.797211 L55.2595387,72.8392923 L56.4332323,73.178438 L56.9713741,71.1580714 C57.291796,71.2581042 57.6029673,71.3508454 57.9075281,71.4384789 L57.3713203,73.4493795 L58.5463618,73.7885605 L59.0896916,71.7503537 C61.0966984,72.2022579 62.6179657,72.0810147 63.3064744,70.1904175 C63.8612462,68.6681744 63.3442755,67.7681743 62.2979372,67.1627237 C63.0758323,66.9966369 63.6720397,66.4803715 63.8561337,65.3865423 L63.8561337,65.3865423 Z M61.0491823,69.2779777 C60.6433525,70.804121 58.1913738,69.9091413 57.3948292,69.6799731 L58.115801,66.9746098 C58.9123179,67.2048346 61.4732486,67.6864 61.0491823,69.2779777 Z M58.4456436,65.7362072 L59.0993286,63.282508 C59.7626526,63.4739981 61.9050469,63.8550762 61.5194704,65.303149 C61.1492871,66.6913525 59.1089676,65.9276973 58.4456436,65.7362072 Z" id="billing_btc"></path></g></g></svg>
+                                        <span>Deposit funds</span></a></li>
+                                    <li><a data-toggle="pill" href="#menu1"><svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g class="path-with-fill" transform="translate(-49.000000, -57.000000)" fill="#929292"><path d="M59,57 L59,57 C64.5228475,57 69,61.4771525 69,67 L69,67 C69,72.5228475 64.5228475,77 59,77 C53.4771525,77 49,72.5228475 49,67 L49,67 L49,67 C49,61.4771525 53.4771525,57 59,57 L59,57 Z M63.8561337,65.3865423 C64.1100589,63.8923732 63.038705,63.0575144 61.5589881,62.4805446 L62.096756,60.461578 L60.9217145,60.122397 L60.3981536,62.0881601 C60.0892489,61.999003 59.7718001,61.9142042 59.4563546,61.8301629 L59.9836265,59.8514556 L58.8092589,59.5122922 L58.2711726,61.5305455 C58.0153301,61.4625162 57.7641868,61.3953149 57.52054,61.3251376 L57.5220539,61.3188328 L55.901582,60.8502627 L55.5522614,62.1628789 C55.5522614,62.1628789 56.4245695,62.3961458 56.4056947,62.408693 C56.881596,62.5462818 56.9595188,62.8799968 56.9381482,63.1423801 L56.3255794,65.4424215 C56.3583721,65.4520919 56.4008356,65.4658928 56.4474953,65.486853 C56.408337,65.4756059 56.3665105,65.4632316 56.3233269,65.4511742 L55.4647353,68.67318 C55.4021175,68.8238075 55.2475357,69.0481603 54.9148535,68.952741 C54.9261772,68.9710136 54.0607739,68.7058526 54.0607739,68.7058526 L53.4363611,70.1060798 L54.965485,70.5475849 C55.2499474,70.63011 55.528589,70.7160074 55.8029699,70.797211 L55.2595387,72.8392923 L56.4332323,73.178438 L56.9713741,71.1580714 C57.291796,71.2581042 57.6029673,71.3508454 57.9075281,71.4384789 L57.3713203,73.4493795 L58.5463618,73.7885605 L59.0896916,71.7503537 C61.0966984,72.2022579 62.6179657,72.0810147 63.3064744,70.1904175 C63.8612462,68.6681744 63.3442755,67.7681743 62.2979372,67.1627237 C63.0758323,66.9966369 63.6720397,66.4803715 63.8561337,65.3865423 L63.8561337,65.3865423 Z M61.0491823,69.2779777 C60.6433525,70.804121 58.1913738,69.9091413 57.3948292,69.6799731 L58.115801,66.9746098 C58.9123179,67.2048346 61.4732486,67.6864 61.0491823,69.2779777 Z M58.4456436,65.7362072 L59.0993286,63.282508 C59.7626526,63.4739981 61.9050469,63.8550762 61.5194704,65.303149 C61.1492871,66.6913525 59.1089676,65.9276973 58.4456436,65.7362072 Z" id="billing_btc"></path></g></g></svg>
+                                        <span>Deposit CRYPTO</span></a></li>
+                                </ul>
+                            </div>
+
+
+                            <div class="tab-content col-md-11 col-sm-11 col-xs-12">
+                                <div id="home" class="tab-pane fade in active">
+                                    <div class="deposit-box">
+
+                                        <div class="row">
+                                            <div class="col-md-6 col-md-offset-3">
+
+                                                <div class="">
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+
+                                                            <div class="form-group">
+                                                                <div class="checkbox checkbox-primary">
+                                                                    <input id="checkbox2" type="checkbox" checked="">
+                                                                    <label for="checkbox2">
+                                                                                Link Card
+                                                                            </label>
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label class="form-label">Payment method</label>
+                                                                <select class="form-control">
+                                                                            <option>Visa / Mastercard</option>
+                                                                        </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <label class="form-label">Counting amount</label>
+                                                                <input type="text" class="form-control" name="text" placeholder="$ 10" />
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <div class="fund-footer">
+                                                                <button class="btn btn-success btn-block btn-lg xs-mb-20">Go to payment</button>
+                                                                <a class="policy" href="javascript:void(0)">Payment Policy</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+
+
+                                </div>
+                                <div id="menu1" class="tab-pane fade">
+                                    <div class="">
+                                        <div class="deposit-box">
+                                            <div class="crypto-wallet form-group">
+                                                <label class="form-label">Cryptocurrency</label>
+                                                <select class="form-control">
+                                                    <option>CRYPTO</option>
+                                                   <option>BTC</option>
+                                               </select>
+                                            </div>
+                                            <div class="crypto-address">
+
+                                                <div class="qrcode">
+                                                    <img src="images/crypto-qrcode.jpg" class="img-responsive" alt="crypto qrcode" />
+                                                </div>
+
+
+                                                <div class="details">
+                                                    <h4><img src="images/billing_warning.svg" alt="billing warning" />Send CRYPTO to this address only</h4>
+                                                    <p>Be careful: sending any other digital asset, will result in irreversible loss. You will be notified as soon as your transaction appears in blocks.</p>
+                                                    <div class="copy xs-mt-30">
+                                                        <input type="text" class="form-control" id="cpadd" value="0x5Bd0FC2a1b4a11De68638FC1c9101fA7F992BC03">
+                                                        <button class="add-cp"><span class="tooltiptext" id="myTooltip">Copy to clipboard</span><i class="fa fa-clone"></i></button>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="footer-list">
+                                    <ul>
+                                        <li><img src="images/payment/ssl-certified.svg" alt="bit security" /></li>
+                                        <li><img src="images/payment/master-card.svg" alt="mastercard" /></li>
+                                        <li><img src="images/payment/Verified-by-visa.svg" alt="visacard" /></li>
+                                        <li><img src="images/payment/pci.svg" alt="pcjcard" /></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- START FOOTER SECTION -->
+    <section class="ast_footer_wrapper">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-left">
+                    <div class="ast_footer_info">
+                        <img src="images/logo-cointronix-color-white.svg" alt="Logo" class="footer-logo">
+                        <p>
+                            Cointronix intends to revolutionize the financial technology space by combining the best of crypto trading payment solutions with cutting-age technology tools. Experience the easy of trading at a platform which is highly innovative in concept and extremely
+                            futuristic in design.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
+                    <div class="widget text-widget">
+                        <div class="ast_servicelink">
+                            <h4>Quick Links</h4>
+                            <ul>
+                                <li><a href="support.html">Support</a></li>
+                                <li><a href="javascript:void(0);">Trading Rules</a></li>
+                                <li><a href="javascript:void(0);">Fees</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
+                    <div class="widget text-widget">
+                        <div class="ast_sociallink">
+                            <h4>Explore More</h4>
+                            <ul>
+                                <li><a href="ourTeam.html">Team Cointronix</a></li>
+                                <li><a href="javascript:void(0);">Knowledge Base</a></li>
+                                <li><a href="javascript:void(0);">Terms of Use</a></li>
+                                <li><a href="privacy-policy.html">Privacy Policy</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="widget text-widget">
+                        <h4 class="widget-title"><strong>	Newsletter Sign Up	Email ID 	</strong></h4>
+                        <div class="ast_newsletter">
+                            <p>
+                                Subscribe to stay updated with the latest news & updates of the crypto currency world.
+                            </p>
+                            <div class="ast_newsletter_box">
+                                <input type="text" placeholder="Enter Email Address">
+                                <button type="submit">Subscribe</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="footer-social-link">
+                        <ul>
+                            <li><a class="facebook" href="javascript:void(0);"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a class="twitter" href="javascript:void(0);"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a class="linkedin" href="javascript:void(0);"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                            <li><a class="google-plus" href="javascript:void(0);"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                            <li><a class="instagram" href="javascript:void(0);"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a class="whatsapp" href="javascript:void(0);"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+        <hr>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="ast_footer_wrapper-bottom">
+                        <p> Copyright ©2018 <a href="javascript:void(0);"> Cointronix</a>, All Rights Reserved, </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- END FOOTER SECTION -->
+    <!-- START TOP SECTION -->
+    <div id="stop" class="scrollTop">
+        <i class="fa fa-angle-up"></i>
+    </div>
+    <!-- END TOP SECTION -->
+    <!-- START SCRIPT SECTION -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+    <!-- END SCRIPT SECTION -->
+
+</body>
+
+</html>
