@@ -1,0 +1,220 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Domus Coins - Dashboard</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/theme-ltr.css">
+    <!--<link rel="stylesheet" href="css/theme-rtl.css">-->
+    <link rel="icon" type="image/ico" href="images/favicon.ico" />
+    <link rel="stylesheet" href="css/toastr.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" rel="stylesheet">
+
+    <style>
+        .btn-light-gray {
+            display: inline-block;
+            color: #4a4a4a;
+            border: 1px solid #cecece;
+            font-size: 13px;
+            line-height: 18px;
+            font-weight: 700;
+            width: auto;
+            padding: 15px 15px;
+            background-color: #ffffff;
+            border-radius: 4px;
+            margin: 20px 10px 0px 10px;
+        }
+
+        .btn-light-gray {
+            opacity: 0.9;
+        }
+
+        .uploadimg img {
+            border: 3px solid #e1eaf0;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body class="bg-grey">
+    <nav id="nav" class="nav">
+        <button class="menu">
+            <em class="hamburger"></em>
+        </button>
+        <div class="brand">
+            <a href="index.html"><img src="images/logo.png" /></a>
+        </div>
+        <ul class="pull-left bal">
+            <li>
+                <h3> Balance : <span>xxx0x0xx00</span></h3>
+            </li>
+        </ul>
+        <ul class="navbar navbar-theme">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="the-project.html">The Project</a>
+            </li>
+            <li>
+                <a href="note-from-the-founder.html">Note from the founder</a>
+            </li>
+            <li>
+                <a href="join-now.html">Join Now</a>
+            </li>
+
+
+            <li class="dropdown">
+                <a class="dropdown-toggle active" data-toggle="dropdown" href="#">
+                    More  <i class="fa fa-angle-down" aria-hidden="true"></i>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-right">
+                    <li><a href="contribute.html">Contribute</a></li>
+                    <li><a href="https://blog.domuscoins.com">More info</a></li>
+                </ul>
+            </li>
+            <li class="dropdown user">
+                <a class="dropdown-toggle active" data-toggle="dropdown" href="#">
+                    <img src="images/user.png" alt="" class="img-circle"> <i class="fa fa-angle-down" aria-hidden="true"></i>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-right">
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">Invited People</a></li>
+                    <li><a href="#">Log Out</a></li>
+                </ul>
+            </li>
+
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#home"><i class="fa fa-globe" aria-hidden="true"></i> EN  <span class="caret"></span></a>
+                <ul class="dropdown-menu dropdown-menu-right">
+                    <li><a href="#">EN</a></li>
+                    <li><a href="#">ER</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+
+
+
+    <!------------------------------------------------------------->
+    <section class="banner-in"></section>
+
+    <!------------------------------------------------------------->
+    <section class="withdraw-section">
+        <div class="container">
+            <div class="withdraw-content">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="tabs-nav">
+                            <a href="#" class="active"><span><i class="fa fa-dashboard" aria-hidden="true"></i></span>Withdraw</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="withdraw-body xs-pt-50">
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1 text-center">
+                            <form method="post">
+                                <div class="row bg-grey xs-mb-10 xs-pb-20 md-pb-0">
+                                    <div class="col-md-3">
+                                        <label class="btn-balance btn-bs-file">
+                                            Select Upload File
+                                            <input type="file" id="file">
+                                        </label>
+
+
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="uploadimg bg-grey xs-p-5 xs-m-5">
+                                            <img src="https://www.saintagnesmaryland.org/media/default_post.jpg" width="80px" height="80px" />
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-5">
+                                        <input type="text" class="form-control-p xs-mt-20" placeholder="Enter Description">
+                                    </div>
+                                    <div class="col-md-2">
+                                        <button type="submit" name="submit" class="btn-light-gray" value="Upload"><i class="fa fa-plus" aria-hidden="true"></i> Add</button>
+                                    </div>
+                                </div>
+
+                                <div class="clearfix"></div>
+                                <hr />
+                                <input type="submit" name="submit" class="btn-balance pull-right"  value="Upload" />
+
+                                <input type="button" value="Error" class="error" />                           
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!------------------------------------------------------------->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-left">
+                    <div class="footer-link">
+                        <p>Copyright <i class="fa fa-copyright" aria-hidden="true"></i> 2017 Domus Coins - All Rights Reserved</p>
+                    </div>
+                </div>
+                <div class="col-md-6 text-right">
+                    <div class="footer-link">
+                        <ul>
+                            <li>
+                                <a href="privacy-policy.html">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="faq.html">FAQs</a>
+                            </li>
+                            <li>
+                                <a href="index.html#contact">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/toastr.js"></script>
+    <script>
+        function filePreview(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+                reader.onload = function (e) {
+                    $('.uploadimg img').remove();
+                    $('.uploadimg').append('<img src="' + e.target.result + '" width="80px" height="80px"/>');
+
+                }
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+
+        $("#file").change(function () {
+            filePreview(this);
+        });
+    </script>
+    <script type="text/javascript">      
+        $(function () {
+            $('.error').click(function () {                
+                toastr.error("Noooo oo oo ooooo!!!", "Title");        
+            });            
+        });
+    </script>
+
+
+
+</body>
+</html>

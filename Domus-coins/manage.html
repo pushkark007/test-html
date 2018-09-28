@@ -1,0 +1,354 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Domus Coins - Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/theme-ltr.css">
+    <!-- <link rel="stylesheet" href="css/theme-rtl.css"> -->
+
+    <link rel="icon" type="image/ico" href="images/favicon.ico" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" rel="stylesheet">
+
+
+</head>
+<body class="bg-grey">
+    <nav id="nav" class="nav">
+        <button class="menu">
+            <em class="hamburger"></em>
+        </button>
+        <div class="brand">
+            <a href="index.html"><img src="images/logo.png" /></a>
+        </div>
+        <ul class="navbar navbar-theme">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="the-project.html">The Project</a>
+            </li>
+            <li>
+                <a href="note-from-the-founder.html">Note from the founder</a>
+            </li>
+            <li>
+                <a href="join-now.html">Join Now</a>
+            </li>
+            <li class="dropdown">
+                <a class="dropdown-toggle active" data-toggle="dropdown" href="#">
+                    More  <i class="fa fa-angle-down" aria-hidden="true"></i>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-right">
+                    <li><a href="contribute.html">Contribute</a></li>
+                    <li><a href="https://blog.domuscoins.com">More info</a></li>
+                </ul>
+            </li>
+
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#home"><i class="fa fa-globe" aria-hidden="true"></i> EN  <span class="caret"></span></a>
+                <ul class="dropdown-menu dropdown-menu-right">
+                    <li><a href="#">EN</a></li>
+                    <li><a href="#">ER</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <!------------------------------------------------------------->
+    <section class="banner-in"></section>
+
+    <!------------------------------------------------------------->
+    <section class="manage-section">
+        <div class="container">
+            <div class="manage-container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="tabs-nav">
+                            <a href="#" id="first-step" class="active"><span><i class="fa fa-credit-card-alt" aria-hidden="true"></i></span>Payment methods</a>
+                            <a href="#" id="second-step"><span><i class="fa fa-exchange" aria-hidden="true"></i></span>Transaction details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="manage-content mn-steps first-step">
+                    <div class="row">
+                        <div class="col-xs-12 text-center ">
+                            <div class="currency-rates text-center">
+                                <div><span class="black">1 DU</span> <strong> = </strong>  <span>$1.00</span><span>€0.84</span><span>0.000069 BTC</span><span>0.0014 ETH</span><span>0.0035 LTC</span></div>
+                                <div class="fk-text">The averages are valid as of now and are shown for reference only</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 xs-mb-20">
+                                    <h2 class="xs-pb-10">Payment method and price calculator</h2>
+                                </div>
+                                <div class="col-md-3 col-md-offset-1">
+                                    <span class="tag-no">1</span>
+                                    <h4 class="xs-pb-20 text-center">Select payment method</h4>
+                                    <ul class="payment-methods">
+                                        <li>
+                                            <label class="active">
+                                                <input id="method-0-0" class="method" type="radio" name="Currency" value="BTC" checked="" data-val="true" data-val-required="The Currency field is required.">BTC
+                                            </label>
+                                        </li>
+                                        <li>
+                                            <label>
+                                                <input id="method-0-1" class="method" type="radio" name="Currency" value="ETH">ETH
+                                            </label>
+                                        </li>
+                                        <li>
+                                            <label>
+                                                <input id="method-0-2" class="method" type="radio" name="Currency" value="LTC">LTC
+                                            </label>
+                                        </li>
+                                        <li>
+                                            <label>
+                                                <input id="method-0-3" class="method" type="radio" name="Currency" value="USD">Visa/Mastercard
+                                            </label>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="payment-select">
+                                        <div class="calculator">
+                                            <span class="tag-no">2</span>
+                                            <div class="cal-group">
+                                                <div class="label">Sum to Spend</div>
+                                                <div class="input-group">
+                                                    <span class="input-group-addon">BTC</span>
+                                                    <input value="" type="number" min="0" required="" class="form-control">
+                                                </div>
+                                            </div>
+                                            <span class="operator">=</span>
+                                            <div class="cal-group">
+                                                <div class="label">How much I will get</div>
+                                                <div class="input-group">
+                                                    <input value="" type="number" min="1" required="" class="form-control">
+                                                    <span class="input-group-addon">DU</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-10 col-md-offset-1">
+                                                <div class="table math">
+                                                    <div class="row hb xs-m-0">
+                                                        <div class="col-xs-6 text-left">
+                                                            Regular price
+                                                        </div>
+                                                        <div class="col-xs-3 text-right">
+                                                            0.00
+                                                        </div>
+                                                        <div class="col-xs-3 text-right">
+                                                            BTC
+                                                        </div>
+                                                    </div>
+                                                    <div class="row hb color xs-m-0">
+                                                        <div class="col-xs-6 text-left">
+                                                            <span>-</span><span>47</span><span>%</span> discount
+                                                        </div>
+                                                        <div class="col-xs-3 text-right">
+                                                            0.00
+                                                        </div>
+                                                        <div class="col-xs-3 text-right">
+                                                            BTC
+                                                        </div>
+                                                    </div>
+                                                    <div class="row hb-0 xs-m-0">
+                                                        <div class="col-xs-6 text-left">
+                                                            Total price
+                                                        </div>
+                                                        <div class="col-xs-3 text-right">
+                                                            0.00
+                                                        </div>
+                                                        <div class="col-xs-3 text-right">
+                                                            BTC
+                                                        </div>
+                                                    </div>
+                                                    <div class="row hide-note" id="note">
+                                                        <div class="col-md-12">
+                                                            <div class="note ">
+                                                                <strong>Note:</strong> This payment method is powered by IndaCoin. When investing with USD, you essentially purchase Bitcoins which are tranferred by IndaCoin to our wallet, whereas we tranfer TOK to your Ethereum Wallet which is linked in your account settings.
+                                                                <br />
+                                                                <div>To pay for your order you will be redirected to our trusted partner IndaCoin website.</div>
+                                                                <div>You will have the limit of $50 for the first transaction, $100 for the second transaction available after 4 days of the initial purchase and $500 after 7 days of the first buy. Be prepared to pass Indacoin's KYC.</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-3">
+                                                            <label class="label xs-mt-10" >Lable Name </label>                                                     
+                                                        </div>
+                                                        <div class="col-md-9 text-center">                                                          
+                                                            <div class="stv-radio-buttons-wrapper">
+                                                                <input type="radio" class="stv-radio-button" name="radioButtonTest" value="1" id="button1" checked />
+                                                                <label for="button1">Button 1</label>
+                                                                <input type="radio" class="stv-radio-button" name="radioButtonTest" value="2" id="button2" />
+                                                                <label for="button2">Button 2</label>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="row pay">
+                                                        <div class="col-md-8 col-sm-8">
+                                                            <span class="text">Buy  <strong><span>0</span> TOK</strong>  for  <strong><span>BTC</span> <span>0.00</span></strong></span>
+                                                        </div>
+                                                        <div class="col-md-4 col-sm-4">
+                                                            <button type="button" class="btn-pay"> Pay <i class="fa fa-caret-right" aria-hidden="true"></i> </button>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <a href="javascript:void(0);" class="promo-link" onclick="document.getElementById('promo-code').classList.toggle('show'); return false;">Have a promo code?</a>
+                                                        </div>
+                                                    </div>
+
+                                                    <div id="promo-code" class="row promo-code">
+
+                                                        <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
+                                                            <div class="label">Promo code</div>
+                                                            <div class="input-group">
+                                                                <input type="text" class="form-control" placeholder="Enter here">
+                                                                <span class="input-group-addon"><button class="btn-apply">Apply</button> </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                           
+                        </div>
+                    </div>
+                </div>
+                <div class="payment-step second-step hide-step">
+                    <div class="row">
+                        <div class="col-sm-6 col-sm-offset-3 text-center">
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <h1>BTC</h1>
+                                    <div class="pay-info">Send <span class="pay-amount">10.000000</span> <strong>BTC</strong> to this address:</div>
+                                    <div class="xs-ptb-20"><img  src="images/barcode.png" width="137" height="137"></div>
+                                    <div class="address-details xs-p-10">
+                                        <input id="value" class="address-control" type="text" readonly="" value="1PV9ieCZaWi1HkSUabCKpVEDyNP2XLNcGN">
+                                        <button onclick="document.getElementById('value').select();	document.execCommand('copy'); return false;" class="btn-select">Copy to clipboard</button>
+                                    </div>
+
+                                    <div class="pay-info xs-mb-30">Amount received: <span class="pay-amount">0.000000</span> <strong>BTC</strong></div>
+                                </div>
+                            </div>
+                            <div class="row xs-pt-30 xs-pb-30">
+                                <div class="col-xs-12">
+                                    <a title="Previous" class="btn-gray" href="#"><i class="fa fa-caret-left" aria-hidden="true"></i>Previous</a><a href="#" class="btn-balance">Check my DU balance</a>                                    
+                                </div>
+                            </div>
+
+                            <p class="xs-mb-50">
+                                You can not share a wallet number with anyone<br /> the payment will be returned to unregistered users.<br />
+                                We'll send you a confirmation email after the completion of your transaction 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!------------------------------------------------------------->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-left">
+                    <div class="footer-link">
+                        <p>Copyright <i class="fa fa-copyright" aria-hidden="true"></i> 2017 Domus Coins - All Rights Reserved</p>
+                    </div>
+                </div>
+                <div class="col-md-6 text-right">
+                    <div class="footer-link">
+                        <ul>
+                            <li>
+                                <a href="privacy-policy.html">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="faq.html">FAQs</a>
+                            </li>
+                            <li>
+                                <a href="index.html#contact">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <script type="text/javascript">
+
+        $('#first-step').click(function () {
+            $('.first-step').removeClass('hide-step');
+            $('.first-step').addClass('show-step');
+            $('.second-step').removeClass('show-step');
+            $('.second-step').addClass('hide-step');
+            $(this).addClass('active');
+            $('#second-step').removeClass('active');
+        });
+        $('#second-step').click(function () {
+            $('.second-step').removeClass('hide-step');
+            $('.second-step').addClass('show-step');
+            $('.first-step').removeClass('show-step');
+            $('.first-step').addClass('hide-step');
+            $(this).addClass('active');
+            $('#first-step').removeClass('active');
+
+        });
+
+
+
+    </script>
+
+    <script type="text/javascript">
+
+        $('#method-0-0').click(function () {
+            $('.method').parent('label').removeClass('active');
+            $('#note').removeClass('show-note');
+            $('#note').addClass('hide-note');
+            $(this).parent('label').addClass('active');
+
+        });
+        $('#method-0-1').click(function () {
+            $('.method').parent('label').removeClass('active');
+            $('#note').removeClass('show-note');
+            $('#note').addClass('hide-note');
+            $(this).parent('label').addClass('active');
+
+        });
+
+        $('#method-0-3').click(function () {
+            $('.method').parent('label').removeClass('active');
+            $('#note').removeClass('hide-note');
+            $(this).parent('label').addClass('active');
+            $('#note').addClass('show-note');
+
+        });
+
+        $('#method-0-2').click(function () {
+            $('.method').parent('label').removeClass('active');
+            $('#note').removeClass('show-note');
+            $('#note').addClass('hide-note');
+            $(this).parent('label').addClass('active');
+
+        });
+
+
+
+    </script>
+
+
+
+
+</body>
+</html>

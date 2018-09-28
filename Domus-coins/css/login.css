@@ -1,0 +1,296 @@
+.login-container {
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    padding-top: 90px;
+}
+.login-box {
+    margin: 0 auto;   
+    max-width: 500px;
+}
+.login-blog {
+    background-color: #ffffff;
+    padding: 18px 8%;
+    margin: 40px;    
+    overflow: hidden;
+    position: relative;
+    border-radius: 4px;
+}
+.login-head {
+    color: #5d5d5d;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 26px;
+    margin-top: 10px;
+}
+    .login-blog h3 {
+    
+        color: #ffffff;
+        text-align: center;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        font-weight: 700;
+        background-color: #5d2ecc;
+        font-size: 13px;
+        display: inline;
+        border: 1px solid #5034cb;
+        padding: 6px 8px;
+        position: absolute;
+        top: -42px;
+        left: -53px;
+        transform: rotate(-45deg);
+        border-radius: 4px 0 4px 0;
+        height: 86px;
+        padding-top: 60px;
+        width: 150px;
+    }
+    .login-blog label {
+        color: #4b6076;
+    }
+.login-blog .form-control {
+    background-color: #ebf2f9;
+    padding: 20px 15px;
+    border: 1px solid #e1e8f1;
+    box-shadow: none;
+    font-weight: 600;
+}
+
+    .login-blog ::-webkit-input-placeholder {
+        color: #b0bbc7;
+    }
+
+    .login-blog ::-moz-placeholder { 
+        color: #b0bbc7;
+    }
+
+    .login-blog :-ms-input-placeholder {
+        color: #b0bbc7;
+    }
+
+    .login-blog :-moz-placeholder { 
+        color: #b0bbc7;
+    }
+
+.btn-login {
+
+    background: #3540ca;
+    background: -webkit-linear-gradient(#3540ca, #7026cc);
+    background: -o-linear-gradient(#3540ca, #7026cC);
+    background: -moz-linear-gradient(r#3540ca, #7026Cc);
+    background: linear-gradient(#3540ca, #7026cC);
+    border: 1px solid #5035cb;
+    padding: 10px 35%;   
+    color: #fff;
+    border-radius: 50px;
+    margin: 15px 0;
+}
+    .btn-login:hover {
+        color: #ffe400;
+        text-decoration: none;
+    }
+.forgot-link {
+    color: #536475;
+    margin: 26px 0px;
+    display: block;
+    font-weight: 700;
+    text-align: right;
+}
+.ln-ref {
+    color: #536475;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+    display: block;
+}
+    .ln-ref a {
+        color: #FF9800;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+
+.input-group-addon {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #5433cb !important;
+    text-align: center;
+    background-color: #ecf2f9 !important;
+    border: 1px solid #e0e7f1 !important;
+    border-right: 0 !important;
+    border-radius: 4px;
+    min-width: 45px;
+}
+
+.btn-fb {
+    color: #fff;
+    background-color: #3b5998;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    width: 100%;
+    border-radius: 50px;
+    text-align: center;
+}
+    .btn-fb i {
+        margin: 0px 12px;
+        border-right: 1px solid #ffffff57;
+        padding: 0 16px 0 0;
+    }
+
+
+sp {
+    border-top: 1px solid #5e2ecc0d;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+
+.btn-gmail {
+    color: #fff;
+    background-color: #dd4b39;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    width: 100%;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.btn-gmail i {
+    margin: 0px 12px;
+    border-right: 1px solid #ffffff57;
+    padding: 0 16px 0 0;
+}
+    .btn-gmail:hover, .btn-gmail:focus {
+        color: #fff;
+        outline: none;
+        background-color: #ce3b29;
+    }
+.btn-fb:hover, .btn-fb:focus {
+    color: #fff;
+    outline: none;
+    background-color: #2f4d8c;
+}
+
+
+
+
+    @media (max-width: 768px) {
+        .login-blog {
+            background-color: #fff;
+            padding: 18px 8%;
+            margin: 20px 20px;
+            border-radius: 6px;
+        }
+
+        .btn-login {
+            width: 100%;
+        }
+
+        .forgot-link {
+            margin: 6px 0px;
+        }
+    }
+
+    .register-box {
+    margin: 0 auto;
+    transform: translate(0%, 0%);
+    max-width: 610px;
+}
+
+
+.register-blog {
+    background-color: #ffffff;
+    padding: 18px 8%;
+    margin: 40px;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+}
+
+.register-head {
+    color: #5d5d5d;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 26px;
+    margin-top: 10px;
+}
+
+
+
+
+.register-blog h3 {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: #5d2ecc;
+    font-size: 13px;
+    display: inline;
+    border: 1px solid #5034cb;
+    padding: 6px 8px;
+    position: absolute;
+    top: -42px;
+    left: -53px;
+    transform: rotate(-45deg);
+    border-radius: 4px 0 4px 0;
+    height: 86px;
+    padding-top: 40px;
+    width: 150px;
+}
+
+.register-blog label {
+    color: #4b6076;
+}
+
+.register-blog .form-control {
+    background-color: #ebf2f9;
+    padding: 0px 15px;
+    border: 1px solid #e1e8f1;
+    box-shadow: none;
+    height: 46px;
+    font-weight: 600;
+}
+
+.register-blog ::-webkit-input-placeholder {
+    color: #b0bbc7;
+}
+
+.register-blog ::-moz-placeholder {
+    color: #b0bbc7;
+}
+
+.register-blog :-ms-input-placeholder {
+    color: #b0bbc7;
+}
+
+.register-blog :-moz-placeholder {
+    color: #b0bbc7;
+}
+
+.btn-register {
+    background: #3540ca;
+    background: -webkit-linear-gradient(#3540ca, #7026cc);
+    background: -o-linear-gradient(#3540ca, #7026cC);
+    background: -moz-linear-gradient(r#3540ca, #7026Cc);
+    background: linear-gradient(#3540ca, #7026cC);
+    border: 1px solid #5035cb;
+    padding: 10px 15%;
+    color: #fff;
+    border-radius: 50px;
+    margin: 10px 0;
+}
+
+    .btn-register:hover {
+        color: #ffe400;
+        text-decoration: none;
+    }
+
+
+
